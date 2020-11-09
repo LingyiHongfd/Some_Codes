@@ -71,7 +71,7 @@ for i in range(dir_len):
 
     contours, _ = cv2.findContours(contour_mask, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
     cv2.drawContours(superimposed_img, contours, -1, (0, 0, 0), 1)
-    save_path=os.path.join(save_list_path,png_dir_path[i])
+    save_path=os.path.join(save_list_path,jpg_dir_path[i])
     #superimposed_img = cv2.addWeighted(img,1,m,1,0)
     cv2.imwrite(save_path, superimposed_img)
 
