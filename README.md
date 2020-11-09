@@ -11,13 +11,9 @@ The colour map can be changed ,and default colour map is cv2.COLORMAP_AUTUMN, wh
 
 The visual effect is as follows:
 
-<p align="center">
-  <img src="img/add_colour/image.jpg" />
-</p>
-
-<center class="half">
+<figure class="third">
     <img src="img/add_colour/image.jpg" /><img src="img/add_colour/mask.png" /><img src="img/add_colour/after.png" />
-</center>
+</figure>
 
 
 
