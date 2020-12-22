@@ -4,11 +4,11 @@
  
 ## The code list:
 
-### add_colour.py
+### vos_visualize
 Combine mask and image together and add contour of the mask to the final image
 The code will auto save the result
-The colour map can be changed ,and default colour map is cv2.COLORMAP_AUTUMN, whose effect is similar to the quality effect in some papers
+based on davis_2017,but modified
 
 The visual effect is as follows:
 
-![](img/add_colour/image.jpg)![](img/add_colour/mask.png)![](img/add_colour/after.png)
+![](show_img/add_colour/image.jpg)![](show_img/add_colour/mask.png)![](show_img/add_colour/after.png)
